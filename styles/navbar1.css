@@ -1,0 +1,553 @@
+
+/*--------------Header-TOP-------------*/
+
+.header-tool-responsive {
+    display: none;
+}
+
+.header-tool-scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 40px 10px;
+    z-index: 1000;
+}
+.header-tool-scroll .nav-toolbarLink {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0 7px;
+}
+.header-tool-scroll .navbar-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drawer-title {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width: 1110px) {
+    .header-tool-responsive {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 30px;
+        padding: 30px 7px;
+        z-index: 1000;
+    }
+    .header-tool-scroll-responsive .navbar-logo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-tool-scroll-responsive .navbar-logo img {
+        margin-left: 20px;
+    }
+    .header-tool-responsive-scroll .nav-responsive-toolbarLink {
+        font-size: 14px;
+        color: white;
+        margin: 0 7px;
+    }
+    .header-tool-responsive-scroll .navbar-signIn-responsive .nav-responsive-toolbarLink {
+        font-size: 14px;
+        color: white;
+        margin: 0 7px;
+    }
+    
+    .header-tool-scroll {
+        display: none;
+    }
+    .navigator {
+        display: none;
+    }
+    .navbar-signIn-responsive {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .header-tool-scroll-responsive {
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 25px;
+        padding: 25px 4px;
+        z-index: 1000;
+    }
+    .header-tool-responsive-scroll .navbar-logo img {
+        display: none;
+    }
+    .header-tool-responsive-scroll .nav-responsive-toolbarLink {
+        font-size: 13px;
+        color: white;
+        margin: 0 4px;
+    }
+    .navbar-signIn-responsive {
+        display: none;
+    }
+}
+
+/*Home Header */
+.header .header-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.header .header-body img {
+    width: 100%;
+}
+.header .header-slider {
+    width: 1px;
+    height: 30px;
+}
+.header .header-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 41%;
+    right: 17px;
+    text-align: center;
+}
+.header .header-slider .sliderItem-active {
+    font-size: 12px;
+    color: rgb(163, 161, 161);
+    font-weight: 500;
+}
+.header .header-slider .sliderItem {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.header .header-slider img {
+    width: 1px;
+    height: 20px;
+}
+.header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+.header .header-text h1 {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+.header .header-text button {
+    background-color: #DAA49A;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    width: 120px;
+    height: 45px;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.header .header-footer {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    bottom: -138px;
+    right: 14%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header .header-footer h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #373F51;
+    letter-spacing: 1px;
+}
+.header .header-footer span {
+    font-size: 14px;
+    margin-top: 8px;
+}
+.header .header-footer .header-tool-scroll-bar {
+    width: 95%;
+    height: 50px;
+    border-radius: 35px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .responsive1-header-tool-scroll-bar {
+    display: none;
+    margin-top: 20px;
+    padding: 0 12%;
+}
+.header .header-footer .responsive-header-tool-scroll-bar {
+    display: none;
+}
+.header .responsive-header-tool-scroll-bar .city-tool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    margin-bottom: 5px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .responsive1-header-tool-scroll-bar .city-tool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    margin-bottom: 5px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .city-tool input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+.header .city-tool select {
+    font-size: 12px!important;
+    color: #8a8a8a;
+    border: none;
+    outline: none;
+}
+.header .responsive-header-tool-scroll-bar .search-tool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .responsive1-header-tool-scroll-bar .search-tool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .responsive-header-tool-scroll-bar .search-tool input{
+    border: none;
+    outline: none;
+}
+.header .responsive1-header-tool-scroll-bar .search-tool input{
+    border: none;
+    outline: none;
+}
+
+.header .header-tool-scroll-bar .cityInput {
+    width: 30%;
+    padding: 0 20px;
+}
+.header .cityInput img{
+    width: 15px
+}
+.header .select-dates {
+    width: 30%;
+    padding: 0 20px;
+
+}
+.header .search-bar {
+    width: 60%;
+    padding: 0 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .search-tool .search-bar {
+    width: 100%;
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .search-tool .search-bar input {
+    height: 35px;
+}
+.header .header-footer .header-tool-scroll-bar input {
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    width: 73%;
+}
+.header .search-bar-width {
+    width: 74%;
+}
+.header .border-vertical {
+    border-right: 1px solid rgba(169, 188, 208, 0.3);
+    height: 50px;
+    width: 1px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.form-group {
+    margin-bottom: 0!important;
+}
+.header .has-search span {
+    color: #8a8a8a;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.header .search-tool .search-bar .search-btn {
+    height: 40px;
+}
+.header .search-btn {
+    background-color: #DAA49A;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header .select-dates select {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: #7a7a7a;;
+}
+
+.navbar-signIn-responsive {
+    display: none;
+}
+
+
+@media screen and (max-width: 965px) {
+    .header .header-text h1 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .header .header-footer {
+        background: white;
+        width: 70%;
+        border-radius: 20px;
+        padding: 30px;
+        position: absolute;
+        bottom: -165px;
+        right: 14%;
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:794px) {
+    .header .header-text h1 {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    .header .header-tool-scroll-bar {
+        display: none!important;
+    }
+    .header .responsive-header-tool-scroll-bar {
+        display: block!important;
+        width: 95%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .header-text button {
+        background-color: #DAA49A;
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        width: 100px;
+        height: 35px;
+        color: white;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .header .header-footer {
+        bottom: -210px!important;
+    }
+}
+@media screen and (max-width: 625px) {
+    .header .header-text h1 {
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .header .header-text h2 {
+        font-size: 14px;
+    }
+    .header .header-text button {
+        background-color: #DAA49A;
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        width: 80px;
+        height: 25px;
+        color: white;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .header .header-slider .sliderItem {
+        font-size: 15px;
+        color: white;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 570px) {
+    .header .header-footer {
+        display: none;
+    }
+    .americanExpress {
+        margin-top: 30px!important;
+    }
+    .header .header-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+    .header .responsive1-header-tool-scroll-bar {
+        display: block;
+        margin-top: 20px;
+        padding: 0 12%;
+    }
+    .header .header-slider {
+        position: absolute;
+        top: 32%;
+        right: 17px;
+        text-align: center;
+    }
+    .footer-ourApp-text-title {
+        margin-top: 15px!important;
+    }
+}
+@media screen and (max-width:470px) {
+    .header .header-text {
+        top: 19%;
+    }
+    .header .header-text h1 {
+        font-weight: 700;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .header .header-text h3 {
+        font-size: 14px;
+    }
+    .header .header-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 30%;
+        right: 17px;
+        text-align: center;
+    }
+    .header .header-text button {
+        background-color: #DAA49A;
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        width: 90px;
+        height: 31px;
+        color: white;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .header .header-text {
+        top: 14%!important;
+    }
+}
+@media screen and (max-width: 410px) {
+    .header-tool-scroll-responsive .navbar-logo {
+        display: none;
+    }
+    .navbar-singIn {
+        display: none;
+    }
+    .navbar-signIn-responsive {
+        display: block!important;
+    }
+    .header .header-text h1 {
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .header .header-text {
+        top: 19%;
+    }
+    .header .header-text button {
+        background-color: #DAA49A;
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 5px;
+        width: 90px;
+        height: 31px;
+        color: white;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .americanExpress-title button {
+        width: 75px!important;
+        height: 30px!important;
+        border-radius: 6px!important;
+    }
+    .header .responsive1-header-tool-scroll-bar .search-tool {
+        height: 30px!important;
+    }
+    .header .responsive1-header-tool-scroll-bar .city-tool {
+        height: 30px!important;
+    }
+    .header .search-btn {
+        height: 30px!important;
+        font-size: 13px;
+    }
+}

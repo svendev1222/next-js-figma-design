@@ -1,0 +1,486 @@
+/* American Express*/
+.americanExpress {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.americanExpress .border-hor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.americanExpress-title .title h1 {
+    font-weight: 700;
+    color: #373F51;
+}
+.americanExpress-title button {
+    color: #58A4B0;
+    border: 1px solid #58A4B0;
+    padding: 5px;
+    width: 100px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    background: none;
+}
+.americanExpress span {
+    color: #373F51;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.americanExpress .cards-body {
+    margin-top: 25px;
+}
+.americanExpress .card-text h5 {
+    color: #DAA49A;
+}
+.americanExpress .card-text span {
+    color: #A9BCD0;
+}
+.americanExpress .card-text {
+    padding: 10px 20px;
+}
+.americanExpress .cards img {
+    width: 100%;
+}
+.americanExpress .cards-body {
+    display: flex;
+    justify-content: space-between;
+}
+.americanExpress .cards-body .cards {
+    box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+    margin: 10px 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.americanExpress .cards .relative {
+    position: relative;
+}
+.americanExpress .cards .card-presale {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    background: #58A4B0;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+.americanExpress-col-md-3 {
+    width: 24%!important;
+    height: 285px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.col-md-3 {
+    height: 260px!important;
+    width: 24%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.category-col-md-3 {
+    width: 24%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.card-text .learnMore {
+    width: 90px;
+    color: #58A4B0;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/*Browse Category*/
+.browseCategory {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.browseCategory .border-hor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.browseCategory-title .title h1 {
+    font-weight: 700;
+    color: #373F51;
+}
+.browseCategory .cards-body {
+    margin-top: 25px;
+}
+.browseCategory .card-text {
+    padding: 10px 20px;
+}
+.browseCategory .cards img {
+    width: 100%;
+}
+.browseCategory .cards-body {
+    display: flex;
+    justify-content: space-between;
+}
+.browseCategory .cards-body .cards {
+    box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+    margin: auto!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-radius: 3px!important;
+}
+.browseCategory .cards .relative {
+    position: relative;
+}
+.browseCategoryItem-position {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
+.browseCategory .cards .card-presale-concerts {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    border-radius: 7px;
+    color: #58A4B0;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 0px 0 #e5e5e5, 0 -1px 0px 0 #e5e5e5, 0 0px 0px 0 #e5e5e5, 0 1px 10px 0 #e5e5e5
+}
+.browseCategory .cards .card-presale-sports {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    border-radius: 7px;
+    color: #DAA49A;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 0px 0 #e5e5e5, 0 -1px 0px 0 #e5e5e5, 0 0px 0px 0 #e5e5e5, 0 1px 10px 0 #e5e5e5
+}
+.browseCategory .cards .card-presale-arts {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    border-radius: 7px;
+    color: #373F51;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 0px 0 #e5e5e5, 0 -1px 0px 0 #e5e5e5, 0 0px 0px 0 #e5e5e5, 0 1px 10px 0 #e5e5e5
+}
+.browseCategory .cards .card-presale-family {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    border-radius: 7px;
+    color: #A9BCD0;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 0px 0 #e5e5e5, 0 -1px 0px 0 #e5e5e5, 0 0px 0px 0 #e5e5e5, 0 1px 10px 0 #e5e5e5
+}
+.browseCategory .cards .card-presale-concerts img{
+    width: 30px;
+    margin-right: 7px;
+}
+.browseCategory .cards .card-presale-sports img{
+    width: 30px;
+    margin-right: 7px;
+}
+.browseCategory .cards .card-presale-arts img{
+    width: 30px;
+    margin-right: 7px;
+}
+.browseCategory .cards .card-presale-family img{
+    width: 30px;
+    margin-right: 7px;
+}
+
+/*Top Selling*/
+.topSelling {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.topSelling .border-hor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.topSelling-title .width100 {
+    width: 100%;
+}
+.topSelling-title .title {
+    width: 220px;
+}
+.topSelling-title .concerts-field {
+    margin-top: 25px;
+    margin-bottom: -15px;
+}
+.topSelling-title .concerts-field button {
+    color: #58A4B0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.topSelling-title .concerts-field img {
+    width: 15px;
+    height: 11px;
+    margin-top: 3px;
+}
+.topSelling-title span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.topSelling-title .title h1 {
+    font-weight: 700;
+    color: #373F51;
+}
+.topSelling .cards-body {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.topSelling .card-text {
+    padding: 10px 20px;
+}
+.topSelling .card-text h4 {
+    color: #373F51;
+    font-size: 15px;
+    font-weight: 700;
+}
+.topSelling .card-text span {
+    color: #A9BCD0;
+    font-size: 11px;
+}
+.topSelling .cards img {
+    width: 100%;
+}
+.topSelling .cards-body {
+    display: flex;
+    justify-content: space-between;
+}
+.topSelling .cards-body .cards {
+    box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+    margin: auto!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.topSelling .cards .relative {
+    position: relative;
+}
+.topSelling .cards .card-selling {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px;
+}
+.topSelling .cards .card-selling .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 9.5px;
+    font-weight: 700;
+}
+.topSelling .cards .card-selling .star img{
+    width: 9px;
+    height: 9px;
+    margin-left: 0.8px;
+}
+.topSelling .cards .card-selling .events {
+    color: #DAA49A;
+    font-weight: 600;
+    font-size: 10px;
+    background: white;
+    padding: 4px;
+    width: 65px;
+    height: 23px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 5px;
+}
+.topSelling-bg {
+    background-color: #E9F4FF;
+}
+.topSelling .card-text-bg {
+    background-color: white;
+}
+
+.family-col-md-3 {
+    width: 24%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    height: 285px;
+    background-color: white;
+}
+
+.discoverMoreEvents-col-md-3 {
+    width: 16%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    height: 240px;
+}
+
+.discoverMoreEvents-relative {
+    position: relative;
+    padding: 6px;
+}
+
+@media screen and (max-width:1130px) {
+    .americanExpress-col-md-3 {
+    /* .col-md-3 { */
+        width: 46%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .col-md-3 {
+        width: 46%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .category-col-md-3 {
+        width: 46%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .family-col-md-3 {
+        width: 46%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .americanExpress-col-md-3 {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .discoverMoreEvents-col-md-3 {
+        width: 30%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .header .header-footer {
+        bottom: -155px;
+    }
+}
+@media screen and (max-width: 840px) {
+    .header .header-footer {
+        bottom: -175px;
+    }
+    .header .header-footer h3 {
+        font-size: 25px;
+    }
+    .header-tool-responsive .navbar-logo img {
+        width: 65%;
+        margin-left: 20px;
+    }
+    .topSelling .cards .card-selling .events {
+        font-weight: 500;
+        font-size: 8px;
+        padding: 2px;
+        width: 54px;
+        height: 18px;
+        margin-left: 3px;
+        opacity: 0.7;
+    }
+    .topSelling .cards .card-selling {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        padding: 3px;
+    }
+    .topSelling .cards .card-selling .star {
+        width: 17px;
+        height: 17px;
+        font-size: 8.5px;
+        font-weight: 600;
+        opacity: 0.7;
+    }
+    .americanExpress-col-md-3 {
+        height: 250px;
+    }
+    .browseCategory .cards-body .cards {
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width : 600px) {
+    .discoverMoreEvents-col-md-3 {
+        width: 45%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .americanExpress-col-md-3 {
+        height: 300px;
+    }
+}
+@media screen and (max-width:550px) {
+        .border-hor {
+            display: none;
+        }
+       .col-md-3 {
+        width: 90%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .americanExpress-col-md-3 {
+    /* .col-md-3 { */
+        width: 90%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .category-col-md-3 {
+        width: 90%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .discoverMoreEvents-col-md-3 {
+        width: 90%!important;
+        height: 335px!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .family-col-md-3 {
+        width: 90%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .americanExpress .cards-body .cards {
+        box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}

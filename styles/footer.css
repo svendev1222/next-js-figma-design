@@ -1,0 +1,90 @@
+.footer {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4% 14% 0 14%;
+}
+.footer-bg {
+    background-color: #373F51;
+}
+.footer-text {
+    width: 22%;
+}
+.footer-text h5 {
+    color: #DAA49A;
+    font-size: 15px;
+}
+.footer-text span {
+    color: white;
+    font-size: 13px;
+}
+.footer-text-title img {
+    width: 50px!important;
+    height: 2px!important;
+    margin-bottom: 10px;
+}
+.footer-ourApp-text-title {
+    margin-top: 85px;
+}
+.footer-ourApp-text-title .ourApp-icon {
+    width: 13px!important;
+    height: 13px!important;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+.footer-text img {
+    width: 10px;
+    height: 8px;
+    margin-right: 3px;
+}
+.footer-text-item {
+    margin: 4px;
+}
+.footer-logo-field {
+    padding: 15px 17%;
+}
+.footer-logo-field .logo-img {
+    width: 200px;
+}
+.footer-social-icon img {
+    width: 30px;
+    margin: 0 10px;
+}
+.footer-bottom {
+    justify-content: space-between;
+}
+.footer .footer-bottom span{
+    color: white;
+    font-size: 13px;
+}
+.footer .footer-bottom img {
+    width: 12px;
+    height: auto;
+}
+.footer-bottom .border-vertical {
+    width: 1px!important;
+    height: 15px!important;
+    margin: 0 10px;
+}
+.footer-bottom .figure {
+    width: 15px!important;
+    height: 8px!important;
+    margin-right: 5px;
+}
+@media screen and (max-width: 1130px) {
+    .footer-text {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:832px) {
+    .footer-bottom {
+        justify-content: center!important;
+    }
+}
+@media screen and (max-width: 570px) {
+    .footer-text {
+        width: 90%;
+    }
+}
